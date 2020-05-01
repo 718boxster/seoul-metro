@@ -119,7 +119,7 @@ parse(f1to4, {comment:"#"}, function(csv_err, csv_data){
         var logdata = JSON.stringify(s_logs)+"\n";
 
         // data 디렉토리 아래 저장할 파일 이름. data 디렉토리 없으면 생성해야 함
-        fs.appendFileSync("../data/seoul-metro-2018.logs", logdata);
+        fs.appendFileSync("data/seoul-metro-2018.logs", logdata);
       }
 
     }
